@@ -35,8 +35,8 @@ int main() {
                     counter++;
                 }
             }
-            for (int &i : vec) {
-                res *= i;
+            for (int i = 0; i < vec.size(); i++) {
+                res *= (vec[i]);
                 res %= 1000000007;
             }
             cout << res << endl;
