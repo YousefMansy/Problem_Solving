@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/B_Godsend.dir/main.cpp.o  -o B_Godsend 
